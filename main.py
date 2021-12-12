@@ -36,5 +36,5 @@ for message in messages:
   except praw.exception.APIException:
     print("Probably a rate limit :(")
 
-  time.sleep(15)
+  time.sleep(600)
 
