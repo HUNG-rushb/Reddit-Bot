@@ -3,7 +3,7 @@ import praw
 reddit = praw.Reddit(client_id='FKpsepQaSNHd0PQBphUc9Q',
                      client_secret='uw7y1aXVF2fgorIdwOxokdnxUgsUSQ',
                      user_agent='trinh duy hung',
-                     username='Ok_Advantage7327',
+                     username='hung-bot',
                      password='tdhvn1352001',
                      check_for_async=False)
 
