@@ -2,7 +2,7 @@ import praw
 
 reddit = praw.Reddit(client_id='FKpsepQaSNHd0PQBphUc9Q',
                      client_secret='uw7y1aXVF2fgorIdwOxokdnxUgsUSQ',
-                     user_agent='a reddit instance',
+                     user_agent='trinh duy hung',
                      username='Ok_Advantage7327',
                      password='tdhvn1352001',
                      check_for_async=False)
@@ -12,8 +12,11 @@ import requests
 import bs4
 import random
 import time
+
 trigger_phrase = "fact"
+
 messages = reddit.inbox.stream()
+
 for message in messages:
   try:
     if message in reddit.inbox.mentions() and message in reddit.inbox.unread():
