@@ -1,10 +1,10 @@
 import praw
 
-reddit = praw.Reddit(client_id='lTxGUPTXNXbF1RVUTeDTcw',
-                     client_secret='x-DXoRwI50QPwnvxpZ1lZkDvr52fxQ',
-                     user_agent='a reddit instance',
-                     username='DuyHungVN',
-                     password='h6h5h4h3h2h1',
+reddit = praw.Reddit(client_id='',
+                     client_secret='x-',
+                     user_agent='a reddit ',
+                     username='',
+                     password='',
                      check_for_async=False)
 
 import random
